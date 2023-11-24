@@ -4,10 +4,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.util.Assert;
 
 import okhttp3.OkHttpClient;
+
+import javax.annotation.PostConstruct;
 
 /**
  * SourceOkHttpClient注册中心
